@@ -1,0 +1,528 @@
+.avanceTxt {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.btnCards {
+    text-align: center;
+    color: white;
+    background: #f60;
+    padding: 5px 0px;
+    font-weight: 600;
+}
+
+.cards {
+    text-align: center;
+    text-align: -webkit-center;
+    background-color: #ececec;
+    padding: 3em 0em;
+}
+
+.card-correo {
+    text-align: justify;
+}
+
+.card-header {
+    border-bottom: 1px solid #0000001f;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.card-header h4 {
+    color: #555555 !important;
+}
+
+.card {
+    padding: 15px;
+    margin: 2em 1em;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 10%);
+    box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 10%);
+}
+
+.con-pago {
+    -webkit-box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 14%);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.74);
+    box-shadow: 0px 3px 6px 0px rgb(0 0 0 / 15%);
+    margin: 30px;
+    border-radius: 15px;
+    text-align: center;
+    align-self: center;
+    padding: 0px 15px;
+}
+
+.con-pago:hover {
+    border: 1px #f60 solid;
+}
+
+.cont-cardCorreo {
+    background-color: white;
+    -webkit-box-shadow: 0px 3px 6px 3px rgb(0 0 0 / 8%);
+    -moz-box-shadow: 0px 3px 6px 3px rgb(0 0 0 / 8%);
+    box-shadow: 0px 3px 6px 3px rgb(0 0 0 / 8%);
+    padding: 1.5em;
+}
+
+.cont-icon-card {
+    text-align: center;
+    text-align: -webkit-center;
+    text-align-last: center;
+}
+
+.cont-title {
+    border-top: solid 1px rgba(255, 102, 0, 0.335);
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.correoCard {
+    background: #f1f1f1;
+    margin: 4em 0em;
+    padding: 2em;
+}
+
+.desc-pag {
+    font-size: 16px !important;
+}
+
+.filter-txt {
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px dashed #999;
+    margin-bottom: 20px;
+    color: #333 !important;
+    font-weight: bold !important;
+}
+
+.icon-card {
+    width: 70px;
+}
+
+.in-seccion {
+    display: flex;
+}
+
+.in-seccion label {
+    margin-left: 5px;
+}
+
+.logoRedondo {
+    background-size: 170px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nombreCard {
+    font-family: 'Roboto Bold' !important;
+    font-size: 20px !important;
+    color: #555555 !important;
+    margin-bottom: 10px;
+    margin-top: 30px !important;
+}
+
+.title-glosario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f60 !important;
+}
+
+
+/*-----------------------------------------------------------tabs-----------------------------------------------------------*/
+
+.controlTabs {
+    padding-top: 1em;
+}
+
+.controlTabs .compensarTabs {
+    display: table;
+    list-style: none;
+    width: 100%;
+    min-width: 768px;
+}
+
+.controlTabs .compensarTab {
+    display: table-cell;
+    width: auto;
+}
+
+.controlTabs .compensarTab .tab {
+    border-radius: 4px 4px 0 0 !important;
+    border: thin solid #e3e3e3;
+    border-bottom: 0;
+}
+
+.controlTabs .compensarTab .tab:hover {
+    color: #555;
+    background-color: #f0f0f0;
+    border: thin solid #ff944d;
+    border-bottom: 0;
+}
+
+.controlTabs .compensarTab .tab.active {
+    background-color: #ff944d;
+    color: #fff;
+    border: thin solid #ff944d;
+    border-bottom: 0;
+}
+
+.controlTabs .compensarDetalleTab {
+    -webkit-animation: fadeEffect 1s;
+    -o-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    display: none;
+    overflow: auto;
+    border: thin solid #ff944d;
+    margin-top: 0;
+    border-radius: 0 0 4px 4px;
+}
+
+
+/*-----------------------------------------------------------fin tabs-----------------------------------------------------------*/
+
+.titulo {
+    color: #555555 !important;
+}
+
+.titleCard {
+    font-family: Roboto Light;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.titleCard a {
+    color: inherit;
+}
+
+.titleCard a:hover {
+    color: #f60;
+}
+
+.seccionSpan {
+    color: #ff6600;
+    font-weight: normal!important;
+    font-family: Roboto Light;
+    font-size: 12px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-size: 40px;
+}
+
+.slick-prev {
+    z-index: 1;
+    left: 10px;
+}
+
+#noticias .slick-prev:before {
+    color: #f60;
+}
+
+#noticias .slick-next:before {
+    color: #f60;
+}
+
+.slick-next:before {
+    font-family: 'FontAwesome';
+    content: '\f054' !important;
+}
+
+.slick-prev:before {
+    font-family: 'FontAwesome';
+    content: '\f053' !important;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.subtitulo {
+    font-family: 'Roboto Bold' !important;
+    font-size: 28px !important;
+    color: #555555 !important;
+}
+
+.video {
+    width: 100%;
+}
+
+.videoC {
+    width: 100%;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #f60;
+}
+
+.slick-dots li button:before {
+    color: #f60;
+}
+
+@media(min-width:992px) {
+    .video {
+        height: 500px;
+    }
+    .cont-cardCorreo {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+    .contLogo {
+        padding-bottom: 1em;
+    }
+    .pagos-f {
+        display: flex;
+        justify-content: center;
+    }
+    .info-fecha {
+        text-align: right;
+        text-align: -webkit-right;
+        text-align-last: right;
+        padding: 0px;
+    }
+    .menu ul a li {
+        background-color: white;
+        box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 20%);
+        -webkit-box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 20%);
+        -moz-box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 20%);
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease
+    }
+    .menu ul a li .infoEnlaces {
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        left: 0 !important;
+        width: 0;
+        background-color: #999;
+        color: #fff !important;
+        opacity: 0;
+        display: none;
+        padding: 0 10px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease
+    }
+    .menu ul a li .infoEnlaces h3 {
+        line-height: 30px;
+        font-size: 14px !important;
+        color: #fff !important
+    }
+    .menu ul a li .infoEnlaces p {
+        font-size: 11px;
+        color: #fff !important;
+    }
+    .menu ul a:hover li {
+        background-color: #ff944d;
+        border-right: 2px dotted #ffffff;
+        color: #fff
+    }
+    .menu ul a:hover .infoEnlaces {
+        width: 200px;
+        opacity: 1;
+        left: 50px !important;
+        display: block
+    }
+    .icon-hands:before:hover {
+        content: "\f2b5";
+        font-family: FontAwesome;
+        color: white;
+    }
+}
+
+@media(max-width:992px) {
+    .cont-cardCorreo {
+        text-align: center;
+        text-align-last: center;
+        text-align: -webkit-center;
+    }
+    .cont-txt-card {
+        text-align: justify;
+    }
+    .title-card {
+        text-align: center;
+    }
+    .titulo {
+        text-align: center;
+    }
+    .contLogo {
+        padding: 5px;
+    }
+    .infoEnlaces {
+        display: none i !important;
+    }
+}
+
+@media(min-width:768px) {
+    .video {
+        height: 375px;
+    }
+}
+
+@media(max-width:767px) {
+    .video {
+        height: 197px;
+    }
+}
+
+
+/* --------------------------------------------------- MenuStyles------------------------------------------*/
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 3
+}
+
+.menu img {
+    width: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    -webkit-padding-start: 0;
+    margin-left: 0;
+    padding-left: 0
+}
+
+.menu ul a {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease
+}
+
+.menu ul a li {
+    background-color: white;
+    padding: 20px 10px;
+    color: #555;
+    text-align: center;
+    margin-top: 1px;
+    position: relative;
+    z-index: 3;
+    width: 50px;
+    transition: all .3s ease;
+    -o-transition: all .3s ease
+}
+
+.ul-two {
+    display: flex;
+}
+
+.ul-two li {
+    width: 25px !important;
+    padding: 1px !important;
+}
+
+.menu ul a li span {
+    font-size: 24px
+}
+
+.ul-two li span {
+    font-size: 18px !important;
+}
+
+.questions:before {
+    content: "\f29c";
+    font-family: FontAwesome;
+    color: black;
+}
+
+.icon-hands:before {
+    content: "\f2b5";
+    font-family: FontAwesome;
+    color: black;
+}
+
+@media(max-width:991px) {
+    .card-correo .subtitulo {
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+        top: 97%;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu .ul-two li {
+        background-color: #42424224;
+        border-radius: 0px 5px 5px 0px !important;
+        color: #f60;
+        font-weight: bold;
+    }
+    .ul-two .questions:before {
+        color: #f60;
+    }
+    .menu .ul-one li {
+        width: 100% !important;
+        min-height: 100px;
+        border-radius: 0px !important;
+    }
+    .menu ul a {
+        width: 20%;
+    }
+    .menu ul a li .infoEnlaces {
+        display: none;
+    }
+    .menu .ul-two {
+        position: fixed;
+        display: block;
+        bottom: 260px;
+    }
+}
+
+.rangos-list {
+    padding: 0px;
+}
+
+.rangos-list a {
+    padding: 4px 0px;
+}
+
+.rangos-list li {
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 18px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc
+}
+
+.rangos-list a li {
+    width: 23%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #f60;
+    font-size: 18px;
+}
+
+.rangos-list a li:hover {
+    background: #f60;
+    color: #fff !important;
+}
+
+.rangos-list a:focus {
+    background: #f60;
+}
+
+.rangos-list a:focus li {
+    color: white;
+}
